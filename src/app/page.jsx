@@ -1,3 +1,11 @@
 export default function Home() {
-  return <main>Hello world</main>;
+  return (
+    <>
+      <header className="header">header</header>
+
+      <main className="content">body</main>
+
+      <footer className="footer">footer</footer>
+    </>
+  );
 }
