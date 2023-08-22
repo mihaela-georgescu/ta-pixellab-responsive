@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <>
       <section className="header-secondary">
-        <div className="header-contact">
+        <div className="header-contact d-none d-lg-block">
           <ul>
             <li>
               <a href="tel:+1-877-666-1840" title="Call us">
@@ -50,11 +50,13 @@ export default function Header() {
             </li>
           </ul>
         </div>
-      </section>
 
-      <picture className="header-logo">
-        <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
-      </picture>
+        <a className="header-logo">
+          <picture href="/" title="Thread Affair">
+            <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
+          </picture>
+        </a>
+      </section>
 
       <section className="header-primary">
         <nav className="nav-primary">
