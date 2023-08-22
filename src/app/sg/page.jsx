@@ -22,6 +22,14 @@ export default function StyleGuide() {
         </a>
         <a className="button button-primary-outline button-lg">Hello</a>
       </div>
+
+      <div className="mt-4 d-flex gap-2">
+        <span className="badge badge-primary">smol text</span>
+        <span className="badge badge-primary badge-lg">%</span>
+
+        <span className="badge badge-secondary">smol text</span>
+        <span className="badge badge-secondary badge-lg">%</span>
+      </div>
     </>
   );
 }
