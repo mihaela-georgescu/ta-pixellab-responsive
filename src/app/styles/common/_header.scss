@@ -9,11 +9,41 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     justify-self: start;
+    align-self: center;
+
+    ul {
+      display: flex;
+      gap: 16px;
+
+      li:first-child {
+        color: $brand-primary;
+      }
+
+      i[class*='fa-'] {
+        font-size: 24px;
+      }
+    }
+  }
+
+  &-contact {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }
 
   &-controls {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    justify-self: end;
+    align-self: center;
+
+    ul {
+      display: flex;
+      gap: 16px;
+
+      i[class*='fa-'] {
+        font-size: 24px;
+      }
+    }
   }
 
   &-logo {
@@ -23,7 +53,11 @@
     justify-self: center;
 
     img {
-      max-width: 80px;
+      max-width: 128px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      grid-row: 2 / 3;
     }
   }
 }

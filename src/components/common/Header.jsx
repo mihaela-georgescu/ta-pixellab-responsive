@@ -19,7 +19,7 @@ export default function Header() {
           </ul>
         </div>
 
-        <div className="header-search">
+        <div className="header-search d-block d-lg-none">
           <ul>
             <li>
               <button type="button" title="Menu">
@@ -51,8 +51,8 @@ export default function Header() {
           </ul>
         </div>
 
-        <a className="header-logo">
-          <picture href="/" title="Thread Affair">
+        <a className="header-logo" href="/" title="Thread Affair">
+          <picture>
             <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
           </picture>
         </a>
