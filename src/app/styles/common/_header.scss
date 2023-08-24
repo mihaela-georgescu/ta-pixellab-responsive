@@ -28,6 +28,11 @@
   &-contact {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+
+    ul {
+      display: flex;
+      gap: 16px;
+    }
   }
 
   &-controls {
@@ -37,9 +42,6 @@
     align-self: center;
 
     ul {
-      display: flex;
-      gap: 16px;
-
       i[class*='fa-'] {
         font-size: 24px;
       }
