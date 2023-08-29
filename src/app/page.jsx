@@ -1,5 +1,6 @@
 import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
+import Payment from '@/components/home/Payment';
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
         <Header></Header>
       </header>
 
-      <main className="content"></main>
+      <main className="content">
+        <Payment></Payment>
+      </main>
 
       <footer className="footer">
         <Footer></Footer>
