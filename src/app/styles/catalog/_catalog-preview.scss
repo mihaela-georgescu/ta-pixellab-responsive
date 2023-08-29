@@ -1,0 +1,23 @@
+.catalog-preview {
+  // varianta de layout old school / naiva
+  .layout-css & {
+    li {
+      margin-bottom: 70px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+        float: left;
+        width: 27.429467%;
+        margin-right: 8.855799%;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
