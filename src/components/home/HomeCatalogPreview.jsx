@@ -1,3 +1,5 @@
+import CatalogPreview from '../catalog/CatalogPreview';
+
 export default function HomeCatalogPreview() {
   return (
     <section className="home-catalog-preview container">
@@ -15,7 +17,7 @@ export default function HomeCatalogPreview() {
         </p>
       </header>
 
-      {/* CatalogPreview */}
+      <CatalogPreview></CatalogPreview>
     </section>
   );
 }
