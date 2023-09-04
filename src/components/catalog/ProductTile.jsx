@@ -15,7 +15,7 @@ export default function ProductTile() {
 
         <h1 className="product-tile-title">
           <a href="/" title="Thread Affair Monochrome Suit">
-            Thread Affair Monochrome Suit
+            <span>Thread Affair</span> Monochrome <span>Suit</span>
           </a>
         </h1>
 
@@ -26,7 +26,13 @@ export default function ProductTile() {
         </h2>
       </header>
 
-      <section className="product-tile-content">{/* add pricing */}</section>
+      <section className="product-tile-content">
+        <span className="product-catalog-price">499.00</span>
+
+        <span className="product-price">
+          USD <span>399.00</span>
+        </span>
+      </section>
 
       <footer className="product-tile-footer">
         <button className="button button-primary">Add to Cart</button>

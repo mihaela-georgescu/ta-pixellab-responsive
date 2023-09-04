@@ -2,9 +2,54 @@
   text-align: center;
 
   &-header {
+    position: relative;
+
     img {
       max-width: 100%;
       width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+    }
+  }
+
+  &-title {
+    font-size: 24px;
+
+    span:first-child {
+      color: $black;
+    }
+
+    span:last-child {
+      font-weight: 300;
+    }
+  }
+
+  &-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &-content {
+    line-height: 29px;
+    margin-bottom: 18px;
+
+    .product-catalog-price {
+      display: block;
+      text-decoration: line-through;
+    }
+
+    .product-price {
+      font-size: 24px;
+
+      span {
+        color: $brand-primary;
+        font-weight: 500;
+      }
     }
   }
 }
