@@ -138,11 +138,10 @@
         font-size: 16px;
         text-transform: uppercase;
         border-radius: 24px;
-        transition: color 0.2s linear, background-color 0.2s ease-out;
+        transition: color 0.2s linear;
 
         &:hover {
-          background: $brand-primary;
-          color: $white;
+          color: $brand-primary;
         }
       }
     }

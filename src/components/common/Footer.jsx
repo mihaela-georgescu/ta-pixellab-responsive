@@ -156,7 +156,7 @@ export default function Footer() {
               <span>Thread Affair</span> Milano
             </h1>
             <p>
-              Largo Augusto 3, Milano, 20122, Milano, IT br
+              Largo Augusto 3, Milano, 20122, Milano, IT <br />
               <a href="tel:+00390276000366" title="Call Us">
                 Tel: 0039 02 760 003 66
               </a>
